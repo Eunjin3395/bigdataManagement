@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>빅데이터경영 김은진</title>
+  <style>
+    table {
+      border-collapse: collapse;
+      width: 100%;
+    }
+    th {
+      border: 1px solid black;
+      padding: 8px;
+      text-align: center;
+    }
+    td {
+      border: 1px solid black;
+      padding: 8px;
+      text-align: left;
+    }
+    th:first-child, td:first-child{
+        width:30px;
+    }
+    th:nth-child(2), td:nth-child(2) {
+    width: 60px;
+  }
+    th:nth-child(4), td:nth-child(4) {
+    width: 20px;
+    text-align: center;
+  }
+
+  </style>
+</head>
+<body>
+  <h3>카테고리별 음식점 리뷰 및 긍정/부정 레이블</h3>
+  <table>
+    <thead>
+      <tr>
+        <th>id</th>
+        <th>category</th>
+        <th>review</th>
+        <th>label</th>
+        <th>translated</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td>1</td>
+        <td>food</td>
+        <td>고기 기름이 넘 많네요. 서비스도 조금 부족한듯. 다소 아쉽네요</td>
+        <td>0</td>
+        <td>There's too much meat oil. The service seems to be a little lacking. It's a bit disappointing</td>
+      </tr>
+      <tr>
+        <td>2</td>
+        <td>food</td>
+        <td>가격이 싸다고 할수도 없고 웨이팅도 길지만
+            <br>또 가고싶은 맛!! 재료들도 신선하고 간이 딱 적당하게 건강하게 맛있는 맛이에요!</td>
+        <td>1</td>
+        <td>I can't say it's cheap and the waiting is long. A taste I want to go again!! 
+            <br>The ingredients are fresh and it tastes healthy and delicious!</td>
+      </tr>
+      <tr>
+        <td>3</td>
+        <td>price</td>
+        <td>가격은 비싸지만 맛있어요!</td>
+        <td>0</td>
+        <td>It's expensive but delicious!</td>
+      </tr>
+      <tr>
+        <td>4</td>
+        <td>price</td>
+        <td>이 가격에 이정도 퀄리티의 음식을 먹을 수 있다니 참 좋은 시간이었습니다.</td>
+        <td>1</td>
+        <td>It was a great time to be able to eat this quality food at this price.</td>
+      </tr>
+      <tr>
+        <td>5</td>
+        <td>service</td>
+        <td>단호박 수프는 맛나지만 친절하진 않아요</td>
+        <td>0</td>
+        <td>Sweet pumpkin soup tastes good, but it's not kind</td>
+      </tr>
+      <tr>
+        <td>6</td>
+        <td>service</td>
+        <td>김밥 포장 했는데 친절하시고 맛도 좋네요! 속이 알차요</td>
+        <td>1</td>
+        <td>Kimbap is packed, but it's kind and delicious! It's full</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+</body>
+</html>
